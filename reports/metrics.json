@@ -1,0 +1,33 @@
+{
+  "best_model": "Logistic Regression",
+  "n_train": 614,
+  "n_test": 154,
+  "test_uncalibrated": {
+    "accuracy": 0.7077922077922078,
+    "precision": 0.6,
+    "recall": 0.5,
+    "f1": 0.5454545454545454,
+    "roc_auc": 0.812962962962963,
+    "brier": 0.17541983807977352,
+    "confusion_matrix": {
+      "tn": 82,
+      "fp": 18,
+      "fn": 27,
+      "tp": 27
+    }
+  },
+  "test_calibrated": {
+    "accuracy": 0.7012987012987013,
+    "precision": 0.5909090909090909,
+    "recall": 0.48148148148148145,
+    "f1": 0.5306122448979592,
+    "roc_auc": 0.812037037037037,
+    "brier": 0.17321692350812434,
+    "confusion_matrix": {
+      "tn": 82,
+      "fp": 18,
+      "fn": 28,
+      "tp": 26
+    }
+  }
+}

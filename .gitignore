@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+.idea/
+app/streamlit_app_backup.py
+app/streamlit_app_before_redesign.py
+app/streamlit_app_old.py
+
+# Old Git history backup
+.git_old/
+
+# Old project files
+models/model.joblib
+models/test.csv
+models/train.csv
+data/diabetes.csv
